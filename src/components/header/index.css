@@ -1,0 +1,23 @@
+.header{
+  padding-bottom: 50px;
+}
+
+.header i {
+  color: #22BAD9;
+  font-size: 12px;
+}
+
+.header span {
+  color: #22BAD9;
+  font-size: 12px;
+}
+
+.header i:hover {
+  color: #fff;
+  background: #22BAD9;
+}
+
+.header span:hover {
+  color: #fff;
+  background: #22BAD9;
+}

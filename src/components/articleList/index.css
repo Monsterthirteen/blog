@@ -1,0 +1,35 @@
+.listContainer{
+  width: 100%;
+  overflow: hidden;
+}
+
+.listContainer ul {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 ;
+}
+
+.listContainer ul li {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.listContainer ul li span {
+  width: 140px;
+  text-align: right;
+  margin-right: 30px;
+  color:rgb(153, 153, 153);
+  font-size: 14px;
+}
+
+.listContainer ul li a {
+  color: #22BAD9;
+  font-size: 14px;
+}
+
+.listContainer ul li a:hover {
+  color: #fff;
+  background: #22BAD9;
+}
