@@ -16,3 +16,10 @@ li{
 .pageContainer{
   padding:25px 50px;
 }
+
+.commentContainer {
+  padding:25px 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}

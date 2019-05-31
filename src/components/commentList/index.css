@@ -1,0 +1,25 @@
+.commentList {
+  max-width: 650px;
+  font-size: 12px;
+  margin: 20px auto;
+}
+
+.commentList div {
+  width: 100%;
+  min-height: 120px;
+  line-height: 24px;
+  overflow: hidden;
+}
+
+.commentList i {
+  line-height: 24px;
+  color: #777777;
+}
+
+.commentList p {
+  margin-top: 20px;
+  color: #333333;
+  white-space: pre-wrap;
+  font:16px Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+}
+

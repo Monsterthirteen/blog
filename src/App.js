@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { HomePage, Essays, Details } from './pages';
-import { Route, BrowserRouter as Router, Redirect} from 'react-router-dom';
+import { HomePage, Essays, Details, Comment } from './pages';
+import { Route, HashRouter as Router, Redirect} from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
@@ -12,6 +12,7 @@ class App extends Component {
           <Route path='/home' component={HomePage}/>
           <Route path='/essays' component={Essays}/>
           <Route path='/details/:id' component={Details}/>
+          <Route path='/comment' component={Comment}></Route>
         </div>
       </Router>
     );

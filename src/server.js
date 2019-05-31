@@ -25,9 +25,14 @@ http.get = ( url, data) => {
   })
 }
 
-http.post = ( url, data, options = {}) => {
+http.post = ( url, data ) => {
   return new Promise((resolve, reject) => {
-    axios.post(formatUri(serverUrl + url), data, options)
+    axios.post(formatUri(serverUrl + url), data, {
+      headers: {
+        'Accept':'*/*',
+        'Content-Type':'application/x-www-form-urlencoded'
+      }
+    })
     .then(res=>{
       resolve(res.data)
     })

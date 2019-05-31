@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import http from '../../server';
 import { message } from 'antd';
 import './index.css';
@@ -32,7 +33,9 @@ class Content extends Component {
         <ul className='typeContainer'>
           {
             typeList.map((item,index) => (
-              <li className='typeList' key={ index }><a href={ item.remark }>{ item.name }</a></li>
+              <li className='typeList' key={ index }>
+                <Link to = {item.remark}>{item.name}</Link>
+              </li>
             ))
           }
         </ul>
